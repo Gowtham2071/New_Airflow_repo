@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-04T02:25:02.722318","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-04T02:25:02.723073","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-04T02:25:02.924072Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.924854Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.925989Z","level":"info","event":"Current task name:choose_best_model","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.926529Z","level":"info","event":"Dag name:my_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.926905Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.927350Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.927767Z","level":"info","event":"Task operator:<Task(_BranchPythonDecoratedOperator): choose_best_model>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:25:02.820009","level":"info","event":"Done. Returned value was: accurate","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator"}
+{"timestamp":"2025-08-04T02:25:02.820427","level":"info","event":"Branch into accurate","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator"}
+{"timestamp":"2025-08-04T02:25:02.822213","level":"info","event":"Following branch {'accurate'}","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator"}
+{"timestamp":"2025-08-04T02:25:02.824810","level":"info","event":"Skipping tasks [('inaccurate', -1)]","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator"}
+{"timestamp":"2025-08-04T02:25:02.825344","level":"info","event":"Skipping downstream tasks.","logger":"task"}

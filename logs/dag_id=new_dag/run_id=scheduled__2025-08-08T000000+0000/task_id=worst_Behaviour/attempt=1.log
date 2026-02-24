@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-08T20:47:45.906079","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-08T20:47:45.908196","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/create_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-08T20:47:46.009966","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-08T20:47:46.278705Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.280512Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.281915Z","level":"info","event":"Current task name:worst_Behaviour","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.283246Z","level":"info","event":"Dag name:new_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.285425Z","level":"info","event":"samyu: the danger","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.287213Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.288894Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T20:47:46.292701Z","level":"info","event":"Task operator:<Task(PythonOperator): worst_Behaviour>","chan":"stdout","logger":"task"}

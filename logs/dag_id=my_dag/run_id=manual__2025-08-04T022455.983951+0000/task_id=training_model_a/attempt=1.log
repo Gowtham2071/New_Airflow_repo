@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-04T02:24:58.604617","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-04T02:24:58.606608","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-04T02:24:58.874405Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.876392Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.877821Z","level":"info","event":"Current task name:training_model_a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.878836Z","level":"info","event":"Dag name:my_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.879661Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.880312Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.880854Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): training_model_a>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-04T02:24:58.721662","level":"info","event":"Done. Returned value was: 1","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-08-04T02:24:58.722257","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019872e5-70dc-7404-ab52-bfbf2da90f1b'), task_id='training_model_a', dag_id='my_dag', run_id='manual__2025-08-04T02:24:55.983951+00:00', try_number=1, map_index=-1, hostname='752c8b488b57', context_carrier={}, task=<Task(_PythonDecoratedOperator): training_model_a>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 8, 4, 2, 24, 57, 158542, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

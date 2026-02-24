@@ -1,0 +1,15 @@
+{"timestamp":"2025-08-05T01:55:26.063581","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T01:55:26.067208","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T01:55:26.477825Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:26.488435Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:26.495192Z","level":"info","event":"Current task name:accurate","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:26.499940Z","level":"info","event":"Dag name:my_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:26.406333","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-05T01:55:26.423860","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'accurate'\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-05T01:55:26.549969","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-05T01:55:26.662194","level":"info","event":"accurate","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-05T01:55:26.666766","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-08-05T01:55:26.671070","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019877f0-20ad-7695-8042-bbdaf3353b35'), task_id='accurate', dag_id='my_dag', run_id='scheduled__2025-08-05T00:00:00+00:00', try_number=1, map_index=-1, hostname='752c8b488b57', context_carrier={}, task=<Task(_BashDecoratedOperator): accurate>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 8, 5, 1, 55, 19, 874029, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-08-05T01:55:27.308582Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:27.372432Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T01:55:27.383059Z","level":"info","event":"Task operator:<Task(_BashDecoratedOperator): accurate>","chan":"stdout","logger":"task"}

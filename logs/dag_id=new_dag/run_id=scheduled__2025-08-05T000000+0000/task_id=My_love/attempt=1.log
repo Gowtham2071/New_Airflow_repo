@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-05T02:00:40.278094","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T02:00:40.282512","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/create_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T02:00:40.035885Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.067352Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.076562Z","level":"info","event":"Current task name:My_love","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.078814Z","level":"info","event":"Dag name:new_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.084034Z","level":"info","event":"MY First Love: Hashu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.085817Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.087477Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:40.093132Z","level":"info","event":"Task operator:<Task(PythonOperator): My_love>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T02:00:39.866377","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
